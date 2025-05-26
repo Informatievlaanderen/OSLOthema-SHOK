@@ -1,18 +1,18 @@
 [
 {
-  "name": "mijn-applicatieprofiel",
+  "name": "shok-ap",
   "type": "ap",
-  "eap": "MijnApplicatieprofiel-AP.eap",
-  "diagram": "MijnApplicatieprofiel",
-  "template": "mijn-applicatieprofiel-ap.j2",
-  "title": "Mijn Applicatieprofiel",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "2020-01-31",
+  "eap": "OSLO-SHOK.eap",
+  "diagram": "OSLO-SHOK",
+  "template": "shok-ap.j2",
+  "title": "Applicatieprofiel SHOK",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "publication-date": "2025-05-26",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "MijnKolom",
-  "site": "site-skeleton/mijn-applicatieprofiel-ap",
-  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mijnThema/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/"
+  "site": "site-skeleton/shok",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-shok/issues",
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-shok/"
 }
 ]
