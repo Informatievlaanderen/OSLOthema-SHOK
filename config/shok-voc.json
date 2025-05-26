@@ -3,7 +3,7 @@
     "name": "shok",
     "type": "voc",
     "eap": "OSLO-SHOK-VOC.eap",
-    "diagram": "OSLO-SHOK",
+    "diagram": "SHOK",
     "template": "shok-voc.j2",
     "title": "Vocabularium SHOK",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
