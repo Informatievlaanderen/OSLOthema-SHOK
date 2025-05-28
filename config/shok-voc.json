@@ -2,7 +2,7 @@
   {
     "name": "shok",
     "type": "voc",
-    "eap": "SHOK",
+    "eap": "SHOK.eap",
     "diagram": "SHOK",
     "template": "shok-voc.j2",
     "title": "Vocabularium SHOK",
