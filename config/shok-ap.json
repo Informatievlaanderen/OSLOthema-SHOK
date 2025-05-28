@@ -2,7 +2,7 @@
 {
   "name": "shok-ap",
   "type": "ap",
-  "eap": "OSLO-SHOK-AP.eap",
+  "eap": "SHOK",
   "diagram": "SHOK",
   "template": "shok-ap.j2",
   "title": "Applicatieprofiel SHOK",
