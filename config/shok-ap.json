@@ -2,8 +2,8 @@
 {
   "name": "shok-ap",
   "type": "ap",
-  "eap": "SHOK",
-  "diagram": "SHOK.eap",
+  "eap": "SHOK.eap",
+  "diagram": "SHOK",
   "template": "shok-ap.j2",
   "title": "Applicatieprofiel Openbare Kasten",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
