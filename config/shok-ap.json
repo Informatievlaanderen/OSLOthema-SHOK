@@ -1,6 +1,6 @@
 [
 {
-  "name": "shok-ap",
+  "name": "openbare-kasten",
   "type": "ap",
   "eap": "SHOK.eap",
   "diagram": "SHOK",
