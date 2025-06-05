@@ -1,5 +1,5 @@
 {
-  "title": "Vocabularium Openbare Kasten",
+  "title": "Vocabularium Openbare Nutsvoorzieningkasten",
   "category": "https://data.vlaanderen.be/doc/concept/StandaardType/Vocabularium",
   "usage": "https://data.vlaanderen.be/doc/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
@@ -13,18 +13,18 @@
   "descriptionFileName": "",
   "specificationDocuments": [
     {
-      "name": "Vocabularium Openbare Kasten",
-      "resourceReference": "https://data.vlaanderen.be/ns/openbare-kasten/"
+      "name": "Vocabularium Openbare Nutsvoorzieningkasten",
+      "resourceReference": "https://data.vlaanderen.be/ns/openbare-nutsvoorzieningkasten/"
     }
   ],
   "documentation": [
     {
-      "name": "Applicatieprofiel Openbare Kasten",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/openbare-kasten/"
+      "name": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/"
     }
   ],
   "charter": {
- "name": "Charter OSLO Openbare Kasten",
+ "name": "Charter OSLO Openbare Nutsvoorzieningkasten",
     "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SHOK/standaardenregister/charter/Charter_OSLO_SHOK.pdf"
 },
   "reports": [
