@@ -1,11 +1,11 @@
 [
 {
-  "name": "openbare-kasten",
+  "name": "openbare-nutsvoorzieningkasten",
   "type": "ap",
   "eap": "SHOK.eap",
   "diagram": "SHOK",
   "template": "shok-ap.j2",
-  "title": "Applicatieprofiel Openbare Kasten",
+  "title": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2025-05-26",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
@@ -13,6 +13,6 @@
   "contributors-column": "Rol",
   "site": "site-skeleton/shok-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-SHOK/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-openbare-kasten/"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-openbare-nutsvoorzieningkasten/"
 }
 ]

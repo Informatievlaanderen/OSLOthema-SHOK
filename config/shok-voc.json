@@ -1,17 +1,17 @@
 [
   {
-    "name": "openbare-kasten",
+    "name": "openbare-nutsvoorzieningkasten",
     "type": "voc",
     "eap": "SHOK.eap",
     "diagram": "SHOK",
     "template": "shok-voc.j2",
-    "title": "Vocabularium Openbare Kasten",
+    "title": "Vocabularium Openbare Nutsvoorzieningkasten",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2025-05-26",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Rol",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-SHOK/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-openbare-kasten/"
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-openbare-nutsvoorzieningkasten/"
   }
 ]
