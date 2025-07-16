@@ -1,0 +1,77 @@
+{
+    "@context": "https://data.vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03/context/openbare-nutsvoorzieningkasten.jsonld",
+    "@graph": [
+        {
+            "@id": "_:KST001",
+            "@type": "Kast",
+            "Nutsvoorzieningnetwerkelement.type": "https://example.com/nutsvoorzieningnetwerktype/Kast",
+            "Nutsvoorzieningknoopcontainer.knoop": [
+              { "@id": "_:STC001" },
+              { "@id": "_:STC00N" }
+            ],
+          "Nutsvoorzieningnetwerkelement.inNetwerk": { "@id": "_:NET001" }
+        },
+        {
+            "@id": "_:STC001",
+            "@type": "Stopcontact",
+            "Nutsvoorzieningnetwerkelement.inNetwerk": { "@id": "_:NET001" }
+        },
+        {
+            "@id": "_:STC00N",
+            "@type": "Stopcontact",
+            "Nutsvoorzieningnetwerkelement.inNetwerk": { "@id": "_:NET001" }
+        },
+        {
+            "@id": "_:ANS001",
+            "@type": "Aansluiting",
+            "Nutsvoorzieningnetwerkelement.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "12345",
+                    "@type": "https://example.com/concept/identificatortype/EANNummer"
+                }
+            },
+            "Nutsvoorzieningnetwerkelement.inNetwerk": { "@id": "_:NET002" }
+        },
+        {
+            "@id": "_:NET001",
+            "@type": "Nutsvoorzieningnetwerk",
+          "Nutsvoorzieningnetwerk.bevoegdePartij": { "@id": "_:ORG001" },
+            "Nutsvoorzieningnetwerk.nutsvoorzieningnetwerktype": "https://example.com/concept/nutsvoorzieningnetwerktype/Elektriciteit",
+            "Nutsvoorzieningnetwerk.element": [
+                {
+                    "@type": "Nutsvoorzieninglink",
+                  "Nutsvoorzieninglink.startknoop": { "@id": "_:ANS001" },
+                  "Nutsvoorzieninglink.eindknoop": { "@id": "_:STC001" }
+                },
+                {
+                    "@type": "Nutsvoorzieninglink",
+                    "Nutsvoorzieninglink.startknoop": { "@id": "_:ANS001" },
+                    "Nutsvoorzieninglink.eindknoop": { "@id": "_:STC00N" }
+                }
+            ]
+        },
+        {
+            "@id": "_:NET002",
+            "@type": "Nutsvoorzieningnetwerk",
+          "Nutsvoorzieningnetwerk.bevoegdePartij": { "@id": "_:ORG002" },
+            "Nutsvoorzieningnetwerk.nutsvoorzieningnetwerktype": "https://example.com/concept/nutsvoorzieningnetwerktype/Elektriciteit"
+        },
+        {
+            "@id": "_:ORG001",
+            "@type": "Organisatie",
+            "Organisatie.voorkeursnaam": {
+                "@value": "Gemeente Anderlecht",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "_:ORG002",
+            "@type": "Organisatie",
+            "Organisatie.voorkeursnaam": {
+                "@value": "Fluvius",
+                "@language": "nl"
+            }
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": [
+    "https://data.vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03/context/openbare-nutsvoorzieningkasten.jsonld",
+    {
+      "XSD.DateTime": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "XSD.Integer": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "_:KST001",
+      "@type": "Kast",
+      "Nutsvoorzieningnetwerkelement.inNetwerk": {
+        "@id": "https://example.com/nutsvoorzieningsnetwerk/Dapperheidsplein"
+      },
+      "Nutsvoorzieningknoopcontainer.knoop": [
+        {
+          "@id": "_:STC001"
+        }
+      ],
+      "Nutsvoorzieningnetwerkelement.huidigeStatus": {
+        "@id": "https://example.com/faciliteitstatus/Operationeel"
+      }
+    },
+    {
+      "@id": "_:STC001",
+      "@type": "Stopcontact",
+      "Nutsvoorzieningnetwerkelement.inNetwerk": {
+        "@id": "https://example.com/nutsvoorzieningsnetwerk/Dapperheidsplein"
+      }
+    },
+    {
+      "@id": "_:OBS001",
+      "@type": "GeaggregeerdVerbruikObservatie",
+      "Observatie.fenomeentijd": {
+        "@type": "Periode",
+        "Periode.van": {
+          "@type": "Moment",
+          "Moment.inXSDDatumTijd": {
+            "@value": "2025-05-01T05:30:00Z",
+            "@type": "XSD.DateTime"
+          }
+        },
+        "Periode.tot": {
+          "@type": "Moment",
+          "Moment.inXSDDatumTijd": {
+            "@value": "2025-05-14T16:00:00Z",
+            "@type": "XSD.DateTime"
+          }
+        }
+      },
+      "Observatie.geobserveerdObject": {
+        "@id": "_:KST001"
+      },
+      "Observatie.geobserveerdKenmerk": {
+        "@id": "https://example.com/concept/kenmerktype/Elektriciteitsverbruik"
+      },
+      "Observatie.resultaat": {
+        "@type": "KwantitatieveWaarde",
+        "KwantitatieveWaarde.waarde": {
+          "@value": 5000,
+          "@type": "XSD.Integer"
+        },
+        "KwantitatieveWaarde.eenheid": {
+          "@id": "http://qudt.org/vocab/unit/MegaW-HR"
+        }
+      },
+      "Observatie.uitgevoerdMetSensor": {
+        "@type": "Meter",
+        "Systeem.gehostDoor": "_:KST001"
+      }
+    }
+  ]
+}
