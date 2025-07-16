@@ -1,4 +1,4 @@
-i# Datavoorbeelden
+# Datavoorbeelden
 
 Voor iedere use case van dit traject werd er een datavoorbeeld gemaakt:
 
